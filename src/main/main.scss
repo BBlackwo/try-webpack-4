@@ -1,0 +1,14 @@
+@import '../common/vars';
+
+.heading {
+  /* Reference an image file */
+  background: url('./images/webpack.png') no-repeat;
+  color: lightcoral;
+  width: 300px;
+  height:250px;
+}
+
+.text {
+  color: lightblue;
+  font-family: $bodyFont;
+}
